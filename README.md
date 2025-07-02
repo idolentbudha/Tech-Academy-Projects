@@ -7,7 +7,7 @@ This repository contains a collection of CSS examples and sample web projects de
 - **Basic CSS Demo**
 - **CSS Menu**
 - **Image Effects with CSS**
-- **One-Page Space Station Site**
+- **Space Station Site**
 - **Movie Theater Site**
 
 ---
@@ -24,7 +24,7 @@ A menu bar built with HTML and CSS. It includes multiple dropdown submenus that 
 
 This project applies various visual effects to images using CSS, such as scaling and transitions on hover.
 
-### One-Page Space Station Site
+### Space Station Site
 
 A single-page application built with HTML and CSS, featuring sections like Home, Image Gallery, Contact Form, and a navigation bar.
 

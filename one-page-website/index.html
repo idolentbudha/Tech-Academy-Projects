@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script>
+      function toggleMenu() {
+        document.querySelector(".nav__menu").classList.toggle("active");
+      }
+    </script>
+    <title>Nector</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="nav">
+        <div class="nav__logo"><p>LOGO</p></div>
+        <div class="nav__menu-wrapper">
+          <ul class="nav__menu">
+            <li class="nav__item">
+              <a class="nav__link" href="#Home">Home</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#about">About Us</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#products">Products</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav__hamburger" onclick="toggleMenu()">
+          <span class="nav__hamburger-line"></span>
+          <span class="nav__hamburger-line"></span>
+          <span class="nav__hamburger-line"></span>
+        </div>
+      </nav>
+      <main>
+        <header id="Home">
+          <div class="container home__header_wrapper">
+            <h1 class="header-h1-hero">
+              RAW HONEY,<br />
+              DEDICATED TO QUALITY
+            </h1>
+            <p>
+              Nestled in the heart of pristine landscapes, our apiary is a haven
+              for honeybees, where they thrive, <br />pollinate, and produce the
+              finest honey you'll ever taste.
+            </p>
+            <a class="btn" href="#contact" aria-label="Contact us">Contact Us</a>
+          </div>
+          <div class="home__image_wrapper">
+            <img src="./images/processone.webp" alt="Bees near hive" />
+            <img src="./images/processtwo.webp" alt="Honey extraction process" />
+            <img src="./images/processthree.webp" alt="Filtering honey" />
+            <img src="./images/processfour.webp" alt="Bottled honey" />
+          </div>
+        </header>
+        <article id="transparency">
+          <h1>Complete transparency about our beekeeping practices</h1>
+          <p>
+            Nestled in the heart of pristine landscapes, our apiary is a haven
+            for honeybees, where they thrive, pollinate, and produce the finest
+            honey you'll ever taste.
+          </p>
+          <div></div>
+        </article>
+        <article id="products">
+          <img src="" alt="Honey products display" />
+          <div>
+            <img src="./images/product1.jpg" alt="Golden Blossom Honey" />
+            <h3>Golden Blossom Hoey</h3>
+            <p>$20</p>
+          </div>
+          <div>
+            <img src="./images/product2.jpg" alt="Honey Comb Chunks" />
+            <h3>Honey Comb Chunks</h3>
+            <p>$50</p>
+          </div>
+          <div>
+            <img src="./images/product3.jpg" alt="WildFlower Honey" />
+            <h3>Wild Flower Honey</h3>
+            <p>$60</p>
+          </div>
+        </article>
+        <section id="testimonials">
+          <img src="./images/testimonial.webp" alt="Customer photo" />
+          <figure>
+            <blockquote>
+              <h1>
+                "It's not just a sweetener. Their honey is a staple in our
+                kitchen. We love the rich, floral notes in every jar. Supporting
+                local beekeeping has never tasted this good!"
+              </h1>
+            </blockquote>
+            <figcaption>
+              Brooklyn Simmons, Head of Marketing, Apple Inc.
+            </figcaption>
+          </figure>
+        </section>
+        <img src="" alt="Beekeeping landscape" />
+      </main>
+    </div>
+    <footer>
+      <p>&copy; 2025 Nector. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
