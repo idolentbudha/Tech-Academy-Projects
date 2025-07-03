@@ -70,6 +70,7 @@ body {
 
 p {
   font-size: var(--fs-md);
+  text-align: center;
 }
 
 h1,
@@ -233,4 +234,50 @@ h1 {
     display: grid;
     grid-template-columns: auto auto;
   }
+}
+
+/*Transparency*/
+.trans__div_video_container {
+  background-color: var(--color-muted);
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+}
+.trans__div_video_container img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/*Products*/
+.product__div_wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 2rem;
+}
+.product {
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: var(--color-muted);
+}
+
+.product p {
+  text-align: left;
+}
+
+/*testimonials*/
+#testimonials {
+  margin-top: 2rem;
+}
+
+.testimonial__div_wrapper {
+  display: flex;
+}
+
+.testimonial__div_wrapper img {
+  display: flex;
+  min-width: 3rem;
+  border-radius: 15px;
+}
+.testimonial__div_wrapper figcaption {
+  text-align: center;
 }
