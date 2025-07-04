@@ -256,6 +256,13 @@ h1 {
   object-fit: cover;
 }
 
+.transparency__div_playbtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /*Products*/
 .product__div_wrapper {
   display: grid;
