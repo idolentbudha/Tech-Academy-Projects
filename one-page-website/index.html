@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE >
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -14,7 +14,9 @@
   <body>
     <div class="wrapper">
       <nav class="nav">
-        <div class="nav__logo"><p>LOGO</p></div>
+        <div class="nav__logo">
+          <img src="./images/logo.png" />
+        </div>
         <div class="nav__menu-wrapper">
           <ul class="nav__menu">
             <li class="nav__item">
@@ -67,50 +69,60 @@
           </div>
         </header>
         <article id="transparency">
-          <h1>Complete transparency about our beekeeping practices</h1>
-          <p>
-            Nestled in the heart of pristine landscapes, our apiary is a haven
-            for honeybees, where they thrive, pollinate, and produce the finest
-            honey you'll ever taste.
-          </p>
-          <div class="trans__div_video_container">
-            <img
-              src="./images/collection.jpg"
-              alt="honey collection transparency"
-            />
-            <div class="transparency__div_playbtn">
-              <svg
-                height="10rem"
-                width="10rem"
-                version="1.1"
-                id="Capa_1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                viewBox="0 0 58 58"
-                xml:space="preserve"
-                fill="#000000"
-              >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                <g
-                  id="SVGRepo_tracerCarrier"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></g>
-                <g id="SVGRepo_iconCarrier">
-                  <circle style="fill: #f2c94c" cx="29" cy="29" r="29"></circle>
-                  <g>
-                    <polygon
-                      style="fill: #ffffff"
-                      points="44,29 22,44 22,29.273 22,14 "
-                    ></polygon>
-                    <path
-                      style="fill: #ffffff"
-                      d="M22,45c-0.16,0-0.321-0.038-0.467-0.116C21.205,44.711,21,44.371,21,44V14 c0-0.371,0.205-0.711,0.533-0.884c0.328-0.174,0.724-0.15,1.031,0.058l22,15C44.836,28.36,45,28.669,45,29s-0.164,0.64-0.437,0.826 l-22,15C22.394,44.941,22.197,45,22,45z M23,15.893v26.215L42.225,29L23,15.893z"
-                    ></path>
+          <div class="transparency_div_wrapper">
+            <h1>Complete transparency about our beekeeping practices</h1>
+            <p>
+              Nestled in the heart of pristine landscapes, our apiary is a haven
+              for honeybees, where they thrive, pollinate, and produce the
+              finest honey you'll ever taste.
+            </p>
+            <div class="trans__div_video_container">
+              <img
+                src="./images/collection.jpg"
+                alt="honey collection transparency"
+              />
+              <div class="transparency__div_playbtn">
+                <svg
+                  height="10rem"
+                  width="10rem"
+                  version="1.1"
+                  id="Capa_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  viewBox="0 0 58 58"
+                  xml:space="preserve"
+                  fill="#000000"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <circle
+                      style="fill: #f2c94c"
+                      cx="29"
+                      cy="29"
+                      r="29"
+                    ></circle>
+                    <g>
+                      <polygon
+                        style="fill: #ffffff"
+                        points="44,29 22,44 22,29.273 22,14 "
+                      ></polygon>
+                      <path
+                        style="fill: #ffffff"
+                        d="M22,45c-0.16,0-0.321-0.038-0.467-0.116C21.205,44.711,21,44.371,21,44V14 c0-0.371,0.205-0.711,0.533-0.884c0.328-0.174,0.724-0.15,1.031,0.058l22,15C44.836,28.36,45,28.669,45,29s-0.164,0.64-0.437,0.826 l-22,15C22.394,44.941,22.197,45,22,45z M23,15.893v26.215L42.225,29L23,15.893z"
+                      ></path>
+                    </g>
                   </g>
-                </g>
-              </svg>
+                </svg>
+              </div>
             </div>
+          </div>
+          <div class="transparency__border_wrapper">
+            <div class="transparency__div_border"></div>
           </div>
         </article>
         <article id="products">
@@ -120,18 +132,25 @@
           <div class="product__div_wrapper">
             <div class="product">
               <img src="./images/product1.jpg" alt="Golden Blossom Honey" />
-              <h3>Golden Blossom Hoey</h3>
-              <p>$20</p>
+
+              <div class="product__div_desc">
+                <h3>Golden Blossom Hoey</h3>
+                <p>$20</p>
+              </div>
             </div>
             <div class="product">
               <img src="./images/product2.jpg" alt="Honey Comb Chunks" />
-              <h3>Honey Comb Chunks</h3>
-              <p>$50</p>
+              <div class="product__div_desc">
+                <h3>Honey Comb Chunks</h3>
+                <p>$50</p>
+              </div>
             </div>
             <div class="product">
               <img src="./images/product3.jpg" alt="WildFlower Honey" />
-              <h3>Wild Flower Honey</h3>
-              <p>$60</p>
+              <div class="product__div_desc">
+                <h3>Wild Flower Honey</h3>
+                <p>$60</p>
+              </div>
             </div>
           </div>
         </article>
@@ -150,7 +169,8 @@
                 </h1>
               </blockquote>
               <figcaption>
-                — Brooklyn Simmons, Head of Marketing, Apple Inc.
+                — <strong>Brooklyn Simmons</strong>, Head of Marketing, Apple
+                Inc.
               </figcaption>
             </figure>
           </div>
