@@ -9,6 +9,7 @@ This repository contains a collection of CSS examples and sample web projects de
 - **Image Effects with CSS**
 - **Space Station Site**
 - **Movie Theater Site**
+- **One Page Site**
 
 ---
 
@@ -31,3 +32,7 @@ A single-page application built with HTML and CSS, featuring sections like Home,
 ### Movie Theater Site
 
 A mock homepage for a movie theater designed using Bootstrap 4. It includes components such as a navbar, jumbotron, forms, cards, dropdowns, and more.
+
+### One Page Site
+
+A basic HTML and CSS website for a honey seller. It uses a combination of generic and semantic HTML tags to enhance SEO and accessibility, featuring a clean and visually appealing UI.
